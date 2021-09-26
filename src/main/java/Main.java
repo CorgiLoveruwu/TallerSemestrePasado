@@ -50,7 +50,6 @@ public class Main {
         return Lista;
     }
 
-
     public static String leerArchivo(String ruta) {
         Path archivo = Paths.get(ruta);
         String contenido = "";
